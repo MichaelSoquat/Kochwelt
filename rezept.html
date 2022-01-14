@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style-simon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <title>Rezept</title>
+    <script src="script.js"></script>
+</head>
+
+<body onload="includeHTML()">
+
+
+    <header class="header">
+        <h1>Griechischer Bauernsalat</h1>
+        <img class="header-img" src="img/salat-ge03496c24_1280.jpg" alt="">
+        <div class="icon-container">
+            <span class="info-style"><img class="icons" src="img/icons/clock-regular.svg" alt="">15 min</span>
+            <span class="info-style"><img class="icons" src="img/icons/brain-solid.svg" alt="">Simple</span>
+            <span class="info-style"><img class="icons" src="img/icons/calendar-alt-regular.svg" alt="">21.12.2021</span>
+        </div>
+    </header>
+    <main>
+        <form class="list-items">
+            <lh class="header-list">
+                <span>Zutaten für</span><span><input id="counter" type="number" min="1" placeholder="1" value="1"><button onclick="convert()" form="counter" class="btn" type="submit">Portionen</button></span>
+            </lh>
+            <ul class="list-items" id="listItems">
+
+
+            </ul>
+
+        </form>
+        <section class="preparation">
+            <h2>Zubereitung</h2>
+            <div>
+                <div class="icon-container">
+                    <span class="info-style"> <img class="icons" src="img/icons/clock-regular.svg" alt="">ca 15 Minuten</span>
+                    <span class="info-style"><img class="icons" src="img/icons/clock-regular.svg" alt="">Gesamtzeit ca 15 Minuten</span>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat iure temporibus fugiat, cupiditate sunt nihil maiores non architecto quia culpa velit obcaecati magnam hic expedita, laboriosam accusantium rerum quaerat sequi! Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Fuga maxime consequatur eligendi aut unde eaque, quis asperiores vero dolor repellendus expedita beatae provident error est iusto dolore quo sed maiores.</p>
+            </div>
+        </section>
+        <section class="profile">
+            <h3 class="h3-margin">Rezept erstellt von</h3>
+            <div class="profile-info">
+                <img src="img/profile.png" alt=""><span>Simon Baumhauer</span>
+            </div>
+        </section>
+    </main>
+    <div w3-include-html="templates/nav.html"></div>
+    <div w3-include-html="templates/footer.html"></div>
+
+</body>
+
+</html>

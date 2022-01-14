@@ -1,0 +1,230 @@
+                html {
+                    position: relative;
+                }
+                
+                body {
+                    font-family: 'Raleway', sans-serif;
+                    margin: 0;
+                    width: 80%;
+                    margin: 0 auto;
+                    min-height: 100vh;
+                }
+                /* === navbar === */
+                
+                .logo {
+                    width: 220px;
+                    max-width: 100%;
+                    height: auto;
+                }
+                
+                .nav-container {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    border-bottom: solid 1px transparent;
+                    box-shadow: 0 1px 5px #afadad;
+                }
+                
+                .navbar {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 30px;
+                    width: 80%;
+                    margin: 0 auto;
+                }
+                
+                .navbar div {
+                    height: 80px
+                }
+                
+                .nav-btn {
+                    display: flex;
+                    align-items: end;
+                }
+                
+                .nav-btn a {
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: black;
+                    padding: 5px 10px;
+                    line-height: 150%;
+                }
+                
+                .nav-btn a:hover {
+                    text-underline-offset: 6px;
+                    text-decoration: underline;
+                    text-decoration-thickness: 5px;
+                    color: green;
+                }
+                
+                .nav-btn a:active {
+                    text-decoration: underline;
+                    text-decoration-thickness: 5px;
+                    color: green;
+                }
+                /* === header === */
+                
+                .header h1 {
+                    margin: 130px 0px 0px 0px;
+                }
+                
+                .header-img {
+                    height: 200px;
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 8px;
+                    margin: 30px 0px;
+                }
+                
+                .info-style {
+                    background-color: lightgrey;
+                    padding: 2px 8px;
+                    border-radius: 8px;
+                    align-items: center;
+                    display: inline-flex;
+                }
+                
+                .icons {
+                    padding-right: 4px;
+                    width: 15px;
+                    height: 15px;
+                }
+                
+                .profile img {
+                    width: 70px;
+                    height: 70px;
+                }
+                
+                .preparation h2 {
+                    margin: 30px 0px 7px 0px;
+                }
+                
+                .icon-container {
+                    padding-bottom: 30px;
+                    border-bottom: solid 1px #afadad;
+                }
+                
+                .header-list {
+                    width: 40%;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 12px;
+                }
+                
+                .header-list span {
+                    padding-right: 10px;
+                    border: 0;
+                    display: flex;
+                    align-items: center;
+                }
+                
+                .header-list input {
+                    border-radius: 4px 0px 0px 4px;
+                    border: solid 1px #afadad;
+                }
+                
+                .header-list button {
+                    border-radius: 0px 4px 4px 0px;
+                    color: white;
+                    border: none;
+                    line-height: 2.7;
+                    font-family: 'Raleway';
+                }
+                
+                .counter {
+                    padding-left: 20px;
+                    font-weight: 700;
+                }
+                
+                .btn {
+                    background-color: green;
+                }
+                
+                .list-items {
+                    padding: 0px;
+                }
+                
+                .list-items li {
+                    list-style: none;
+                    line-height: 200%;
+                    padding: 5px;
+                    border-radius: 5px;
+                }
+                
+                .list-items li:nth-of-type(odd) {
+                    background-color: rgb(202, 227, 248);
+                }
+                
+                .profile {
+                    margin-bottom: 400px;
+                }
+                
+                .profile-info {
+                    display: flex;
+                    align-items: center;
+                }
+                
+                .profile-info img {
+                    border-radius: 100%;
+                }
+                
+                .profile-info span {
+                    padding-left: 20px;
+                }
+                
+                .footer {
+                    height: 300px;
+                    background-color: #545454;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                }
+                /* === KONTAK === */
+                
+                .kontakt-h1 {
+                    margin-top: 100px;
+                }
+                
+                .forms {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    font-family: 'Raleway', sans-serif;
+                }
+                
+                .forms textarea,
+                input {
+                    font-size: 14px;
+                    border: solid 1px #afadad;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin: 20px 0px;
+                    font-weight: 400;
+                    display: block;
+                    font-family: 'Raleway', sans-serif;
+                }
+                
+                .forms textarea {
+                    width: 300px;
+                    height: auto;
+                }
+                
+                .forms button {
+                    background-color: green;
+                    border: none;
+                    padding: 5px;
+                    color: white;
+                    font-family: 'Raleway', sans-serif;
+                    border-radius: 4px;
+                }
+                /* === Impressum === */
+                
+                .impressum {
+                    margin-bottom: 350px;
+                }
+                
+                .impressum h1 {
+                    margin-top: 150px;
+                }
